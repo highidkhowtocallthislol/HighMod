@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "highmod:ruby_block"
+  },
+  "result": "highmod:ruby",
+  "experience": 1000,
+  "cookingtime": 200
+}

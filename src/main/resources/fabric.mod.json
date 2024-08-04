@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "highmod",
+	"version": "${version}",
+	"name": "HighMod",
+	"description": "HighMod is a kind of intuitive mod for weapons ig",
+	"authors": [
+		"HighSkyGuy1",
+		"High"
+	],
+
+	"license": "MIT",
+	"icon": "favicon.ico",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.highskyguy.highmod.HighMod"
+		],
+		"fabric-datagen": [
+			"net.highskyguy.highmod.HighModDataGenerator"
+		],
+		"client": [
+			"net.highskyguy.highmod.HighModClient"
+		]
+	},
+	"mixins": [
+		"highmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.92.2"
+
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

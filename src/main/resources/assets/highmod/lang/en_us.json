@@ -1,0 +1,12 @@
+{
+  "item.highmod.ruby": "Ruby",
+  "item.highmod.raw_ruby": "Raw Ruby",
+  "itemgroup.ruby": "Ruby Section",
+  "itemgroup.illegal": "Illegal Section of Chapter 69 haha",
+  "block.highmod.ruby_block": "Block of Ruby",
+  "block.highmod.raw_ruby_block": "Block of Raw Ruby",
+  "block.highmod.ruby_ore": "Ruby Ore",
+  "block.highmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.highmod.end_stone_ruby_ore": "End Ruby Ore",
+  "block.highmod.deepslate_ruby_ore": "Deepslate Ruby Ore"
+}
