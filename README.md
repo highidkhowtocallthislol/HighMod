@@ -1,2 +1,2 @@
 # HighMod
-This mod allows you to add in items and stuff idk wtf im saying
+Please click on the "Issues" tab and download the source code or the jar file
