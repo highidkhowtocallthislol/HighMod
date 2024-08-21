@@ -22,7 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
-                        entries.add(ModBlocks.END_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModItems.METAL_DETECTOR);
@@ -52,6 +52,12 @@ public class ModItemGroups {
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.PORCUPINE_SPAWN_EGG);
                         entries.add(ModBlocks.GEM_POLISHING_STATION);
+                        entries.add(ModBlocks.CHESTNUT_WOOD);
+                        entries.add(ModBlocks.CHESTNUT_LOG);
+                        entries.add(ModBlocks.CHESTNUT_PLANKS);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+                        entries.add(ModBlocks.CHESTNUT_LEAVES);
                     }).build());
     public static final ItemGroup ILLEGAL_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(HighMod.MOD_ID, "metal_detector"),

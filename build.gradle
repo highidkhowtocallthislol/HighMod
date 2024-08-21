@@ -21,7 +21,8 @@ repositories {
 		url = "https://maven.terraformersmc.com/"
 	}
 	maven {
-		url = 'https://maven.minecraftforge.net/'
+		url = "https://maven.minecraftforge.net/"
+		name = "Forge"
 	}
 	maven {
 		url "https://maven.shedaniel.me"
@@ -44,6 +45,9 @@ dependencies {
 	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:13.0.666"
 	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:13.0.666"
 	modImplementation 'com.github.glitchfiend:TerraBlender-fabric:1.20.2-3.0.0.170'
+	modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:1.0.1"
+	include "com.terraformersmc.terraform-api:terraform-wood-api-v1:1.0.1"
+	include "me.shedaniel:RoughlyEnoughItems-api-fabric:13.0.666"
 
 }
 

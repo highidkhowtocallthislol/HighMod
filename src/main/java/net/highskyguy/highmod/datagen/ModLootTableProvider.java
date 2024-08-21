@@ -1,5 +1,6 @@
 package net.highskyguy.highmod.datagen;
 
+import dev.architectury.platform.Mod;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.highskyguy.highmod.block.ModBlocks;
@@ -35,7 +36,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_ORE, copperLikeOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.NETHER_RUBY_ORE, copperLikeOreDrops(ModBlocks.NETHER_RUBY_ORE, ModItems.RAW_RUBY));
-        addDrop(ModBlocks.END_RUBY_ORE, copperLikeOreDrops(ModBlocks.END_RUBY_ORE, ModItems.RAW_RUBY));
+        addDrop(ModBlocks.END_STONE_RUBY_ORE, copperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE, ModItems.RAW_RUBY));
 
 
         addDrop(ModBlocks.RUBY_STAIRS);
@@ -49,6 +50,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
         addDrop(ModBlocks.RUBY_SLAB, slabDrops(ModBlocks.RUBY_SLAB));
         addDrop(ModBlocks.GEM_POLISHING_STATION);
+
+        addDrop(ModBlocks.CHESTNUT_LOG);
+        addDrop(ModBlocks.CHESTNUT_WOOD);
+        addDrop(ModBlocks.STRIPPED_CHESTNUT_LOG);
+        addDrop(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+
+        addDrop(ModBlocks.CHESTNUT_LEAVES, leavesDrops(ModBlocks.CHESTNUT_LEAVES, ModBlocks.CHESTNUT_WOOD, 0.025f));
 
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP).properties(StatePredicate.Builder.create()
                 .exactMatch(TomatoCropBlock.AGE, 5));

@@ -1,11 +1,12 @@
-// 1.20.2	2024-08-20T17:31:10.7931469	HighMod/Tags for minecraft:block
+// 1.20.2	2024-08-21T16:17:23.7878669	HighMod/Tags for minecraft:block
 8816e4f54223909449a667d90bc2110555c9f416 data\fabric\tags\blocks\needs_tool_level_5.json
+f8eae4450fedb930b3275616696fa69461c7de33 data\minecraft\tags\blocks\logs_that_burn.json
 b3dece53c9aa6e22af3c5602840347efe8b6cc59 data\highmod\tags\blocks\metal_detector_detectable_blocks.json
 3dd5e7114a2f08dbbc29088b97710113b65bb76e data\minecraft\tags\blocks\walls.json
 fa6b757019e18435461b4907176caae44bdcab09 data\minecraft\tags\blocks\needs_iron_tool.json
 6baf33df2591164ab5d860615d0c6b9431f6b6f4 data\minecraft\tags\blocks\fence_gates.json
-31b31746708feeb849312ea3ba038c79aaf72923 data\minecraft\tags\blocks\needs_diamond_tool.json
 75fb94858f9b062e154fd131f3e6f9236a269238 data\minecraft\tags\blocks\fences.json
-49bb8be9e741e4802ae39b2dc2bb72844bfdea5d data\minecraft\tags\blocks\mineable\pickaxe.json
+31b31746708feeb849312ea3ba038c79aaf72923 data\minecraft\tags\blocks\needs_diamond_tool.json
 337f91b91dee0eaae1be0a7c571131293737a779 data\minecraft\tags\blocks\needs_stone_tool.json
+49bb8be9e741e4802ae39b2dc2bb72844bfdea5d data\minecraft\tags\blocks\mineable\pickaxe.json
 ca4967bbd38086d97f3c3f19b622e540353666fe data\fabric\tags\blocks\needs_tool_level_4.json

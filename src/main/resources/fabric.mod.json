@@ -7,7 +7,11 @@
 	"authors": [
 		"HighSkyGuy1"
 	],
-
+	"contact": {
+		"sources": "https://tinyurl.com/hotgirliesomgslay",
+		"homepage": "https://tinyurl.com/hotgirliesomgslay",
+		"issues": "https://tinyurl.com/hotgirliesomgslay"
+	},
 	"license": "MIT",
 	"icon": "favicon.png",
 	"environment": "*",
@@ -26,8 +30,10 @@
 		],
 		"rei_client": [
 			"net.highskyguy.highmod.compat.HighModREIClientPlugin"
+		],
+		"terrablender": [
+			"net.highskyguy.highmod.world.biome.ModTerrablenderAPI"
 		]
-
 	},
 	"mixins": [
 		"highmod.mixins.json"
@@ -36,9 +42,8 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*",
-		"terrablender": "<3.0.0.171",
-		"roughlyenoughitems": "<13.0.667"
+		"fabric-api": "*"
+		"terrablender": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
