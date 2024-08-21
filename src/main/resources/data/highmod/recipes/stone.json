@@ -1,0 +1,12 @@
+{
+  "type": "highmod:gem_polishing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "output": {
+    "item": "minecraft:stone",
+    "count": 1
+  }
+}

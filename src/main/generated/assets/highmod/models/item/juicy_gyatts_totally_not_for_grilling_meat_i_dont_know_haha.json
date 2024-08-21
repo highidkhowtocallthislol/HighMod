@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "highmod:item/juicy_gyatts_totally_not_for_grilling_meat_i_dont_know_haha"
+  }
+}

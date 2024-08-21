@@ -1,0 +1,7 @@
+// 1.20.2	2024-08-20T17:31:10.7911525	HighMod/World Gen
+8649f7ef472f922763ccc3cf0f98f7b1bf7836a1 data\highmod\worldgen\configured_feature\ruby_ore.json
+403c9e8b9ace4e6a476662ec4c9b8c65fcd47052 data\highmod\worldgen\placed_feature\ruby_ore_placed.json
+7d2b564a6da8fb07e7694cf71f33f4eeab2791e5 data\highmod\worldgen\placed_feature\nether_ruby_ore_placed.json
+4c836aa91cef2e155bdc5b23779891d9b278c84e data\highmod\worldgen\placed_feature\end_ruby_ore_placed.json
+6d74cc281ea0b060d8a0d10503d8eab8475721a1 data\highmod\worldgen\configured_feature\nether_ruby_ore.json
+3e30600040818f0ac99e7e5e39378828549bdd9f data\highmod\worldgen\configured_feature\end_ruby_ore.json
