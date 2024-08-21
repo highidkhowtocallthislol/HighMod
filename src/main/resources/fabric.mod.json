@@ -3,14 +3,13 @@
 	"id": "highmod",
 	"version": "${version}",
 	"name": "HighMod",
-	"description": "HighMod is a kind of intuitive mod for weapons ig",
+	"description": "HighMod is a mod with biomes, custom tools, items and more.",
 	"authors": [
-		"HighSkyGuy1",
-		"High"
+		"HighSkyGuy1"
 	],
 
 	"license": "MIT",
-	"icon": "favicon.ico",
+	"icon": "favicon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -21,7 +20,14 @@
 		],
 		"client": [
 			"net.highskyguy.highmod.HighModClient"
+		],
+		"modmenu": [
+			"net.highskyguy.highmod.HighModAcceptance"
+		],
+		"rei_client": [
+			"net.highskyguy.highmod.compat.HighModREIClientPlugin"
 		]
+
 	},
 	"mixins": [
 		"highmod.mixins.json"
@@ -30,8 +36,9 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": ">=0.92.2"
-
+		"fabric-api": "*",
+		"terrablender": "<3.0.0.171",
+		"roughlyenoughitems": "<13.0.667"
 	},
 	"suggests": {
 		"another-mod": "*"

@@ -8,5 +8,41 @@
   "block.highmod.ruby_ore": "Ruby Ore",
   "block.highmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.highmod.end_stone_ruby_ore": "End Ruby Ore",
-  "block.highmod.deepslate_ruby_ore": "Deepslate Ruby Ore"
+  "item.highmod.metal_detector": "§4§lOP Item Detector NO JOKE!",
+  "block.highmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.highmod.sound_block": "§4§lSOUND BLOCK",
+  "item.highmod.tomato": "§4§lTomato",
+  "item.highmod.juicy_gyatts_totally_not_for_grilling_meat_i_dont_know_haha": "§4§lVERY JUICY GYATTS :)",
+  "highmod.tooltip.iron_detector": "Finds §l§1f§2r§4e§5e §r ores :O",
+  "highmod.tooltip.sound_block": "§l WHAT IS THIS? IT SEEMS §4 SUSPISIOUS!!!!!111",
+  "block.highmod.ruby_stairs": "Ruby Stairs",
+  "block.highmod.ruby_slab": "Ruby Slab",
+  "block.highmod.ruby_button": "Ruby Button",
+  "block.highmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.highmod.ruby_fence": "Ruby Fence",
+  "block.highmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.highmod.ruby_wall": "Ruby Wall",
+  "block.highmod.ruby_door": "Ruby Door",
+  "block.highmod.ruby_trapdoor": "Ruby Trapdoor",
+  "item.highmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.highmod.ruby_axe": "Ruby Axe",
+  "item.highmod.ruby_sword": "Ruby Sword",
+  "item.highmod.ruby_hoe": "Ruby Hoe",
+  "item.highmod.ruby_shovel": "Ruby Shovel",
+
+  "item.highmod.ruby_helmet": "Ruby Helmet",
+  "item.highmod.ruby_chestplate": "Ruby Chestplate",
+  "item.highmod.ruby_leggings": "Ruby Leggings",
+  "item.highmod.ruby_boots": "Ruby Boots",
+
+  "item.highmod.tomato_seeds": "Tomato Seeds",
+  "item.highmod.corn": "Corn",
+  "item.highmod.corn_seeds": "Corn Seeds",
+
+  "item.highmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
+  "entity.highmod.porcupine": "Porcupine",
+
+  "block.highmod.gem_polishing_station": "Gem Polishing Station",
+
+  "rei.api.highmod.gem_polishing": "Gem Polishing"
 }
