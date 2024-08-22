@@ -26,7 +26,11 @@ public class ModItems {
 
 
 
+    public static final Item CHESTNUT_SIGN = registerItem("chestnut_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.CHESTNUT_STANDING_SIGN, ModBlocks.WALL_CHESTNUT_SIGN));
 
+    public static final Item HANGING_CHESTNUT_SIGN = registerItem("chestnut_sign",
+            new HangingSignItem(ModBlocks.HANGING_CHESTNUT_STANDING_SIGN, ModBlocks.WALL_HANGING_CHESTNUT_SIGN, new FabricItemSettings().maxCount(16)));
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
             new PickaxeItem(ModToolMaterial.RUBY, 2, 2f, new FabricItemSettings()));

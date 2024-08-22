@@ -35,6 +35,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_PLANKS);
 
+        BlockStateModelGenerator.BlockTexturePool chestnut_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHESTNUT_PLANKS);
+        chestnut_pool.family(ModBlocks.CHESTNUT_FAMILY);
+
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
         rubyPool.button(ModBlocks.RUBY_BUTTON);
@@ -55,6 +58,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_CHESTNUT_SIGN, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.MY_GYATT, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);

@@ -1,5 +1,9 @@
 package net.highskyguy.highmod.block;
 
+import com.terraformersmc.terraform.sign.block.TerraformHangingSignBlock;
+import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
+import com.terraformersmc.terraform.sign.block.TerraformWallHangingSignBlock;
+import com.terraformersmc.terraform.sign.block.TerraformWallSignBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.highskyguy.highmod.HighMod;
@@ -10,6 +14,8 @@ import net.highskyguy.highmod.block.custom.SoundBlock;
 import net.highskyguy.highmod.block.custom.TomatoCropBlock;
 import net.highskyguy.highmod.sound.ModSounds;
 import net.minecraft.block.*;
+import net.minecraft.data.family.BlockFamilies;
+import net.minecraft.data.family.BlockFamily;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -90,6 +96,25 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
     public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
+
+    public static Identifier CHESTNUT_SIGN_TEXTURE = new Identifier(HighMod.MOD_ID, "entity/signs/chestnut");
+
+    public static Identifier CHESTNUT_HANGING_SIGN_TEXTURE = new Identifier(HighMod.MOD_ID, "entity/signs/hanging/chestnut");
+    public static Identifier CHESTNUT_HANGING_GUI_SIGN_TEXTURE = new Identifier(HighMod.MOD_ID, "textures/gui/hanging_signs/chestnut");
+
+    public static final Block CHESTNUT_STANDING_SIGN = registerBlock("chestnut_standing_sign",
+            new TerraformSignBlock(CHESTNUT_SIGN_TEXTURE , FabricBlockSettings.copyOf(Blocks.OAK_SIGN).strength(4f)));
+    public static final Block WALL_CHESTNUT_SIGN = registerBlock("chestnut_wall_sign",
+            new TerraformWallSignBlock(CHESTNUT_SIGN_TEXTURE , FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN).strength(4f)));
+    public static final Block HANGING_CHESTNUT_STANDING_SIGN = registerBlock("chestnut_standing_sign",
+            new TerraformHangingSignBlock(CHESTNUT_HANGING_SIGN_TEXTURE , CHESTNUT_HANGING_GUI_SIGN_TEXTURE ,FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN).strength(4f)));
+    public static final Block WALL_HANGING_CHESTNUT_SIGN = registerBlock("chestnut_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(CHESTNUT_SIGN_TEXTURE , CHESTNUT_HANGING_GUI_SIGN_TEXTURE , FabricBlockSettings.copyOf(Blocks.OAK_SIGN).strength(4f)));
+
+    // COCONUT FAMILY!!!!!! :O
+    public static final BlockFamily CHESTNUT_FAMILY = BlockFamilies.register(ModBlocks.CHESTNUT_PLANKS)
+            .sign(ModBlocks.CHESTNUT_STANDING_SIGN, ModBlocks.WALL_CHESTNUT_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
 
 
